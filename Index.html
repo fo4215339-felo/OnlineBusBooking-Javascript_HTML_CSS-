@@ -1,0 +1,65 @@
+<!DOCTYPE html> <!--Shows the version of the html being used-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--Character encoding-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Title shown on the browser-->
+    <title>DreamLine Online Booking Office</title>
+
+    <!--Links external Css file-->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <!--Main container that holds everything-->
+    <div class="container">
+
+      <!--Page Heading-->
+    <h1>DreamLine Bus Online Booking Office</h1>
+
+<hr>
+
+<marquee>
+Welcome back to Dreamline Buses Online Booking Platform
+</marquee>
+
+<h4>Fill your details in the in the fileds below.</h4>
+
+<!--Booking form-->
+<form id="bookingForm">
+
+<!--Passengers name-->
+<label>Name</label>
+<input type="text" id="name" required placeholder="John Zacherbag">
+
+<!--Depature lacation-->
+<label>From</label>
+<input type="text" id="from"required placeholder="Nairobi">
+
+<!--Destination of Bus-->
+<label>To</label>
+<input type="text" id="to"required placeholder="Kirinyaga">
+
+<!--Date of Depature-->
+<label>Date of Depature</label>
+<input type="date" id="date" required>
+
+<!--Seat Number-->
+<label>Seats Number</label>
+<input type="number" id="seats" min="1" max="62"required>
+
+<!--Submit Button-->
+<button>Book Ticket</button>
+
+</form>
+
+<!--Area where booking result will appear-->
+<div id="result" class="resultBox"></div>
+
+    </div>
+<!--Links external Javascript file with the html file-->
+<script src="Index.js"></script>
+
+</body>
+</html>

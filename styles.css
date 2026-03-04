@@ -1,0 +1,82 @@
+/*Styles the whole page*/
+body{
+    margin: 0;
+    height: 100vh;
+
+    background:url(Dreamline.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 20px;
+}
+
+
+h1{
+    /*Header Styles*/
+text-align: center;    
+text-decoration: underline;
+text-decoration-thickness: 4px;
+text-underline-offset:6px;/*moves the underline slightly lower*/
+}
+
+hr{
+    /*Horizontal line styles*/
+    border:none;
+    height: 10px;
+    background-color: red;
+    width: 100%;
+}
+
+
+h4{
+    text-decoration: underline;
+}
+
+marquee{
+    behavior: scroll;
+    direction:left;
+    font-size: large;
+    font-weight: 400;
+    font-style: italic;
+}
+label{
+    display: block;
+    margin-top: 12px;
+}
+
+/*Styles the text boxes and number inputs*/
+input{
+width:30%;
+padding: 5px;  
+margin-top: 4px;
+
+}
+
+/* Styles Booking button */
+button{
+width: 300px;
+margin-top: 20px;
+padding: 10px;
+background: rgb(71, 71, 174);
+border:none;
+color: antiquewhite;
+font-size:20px;
+cursor: pointer;
+display: block;
+}
+
+/*Change the color when mouse is moved over the button */
+button:hoover{
+    background: rgb(5, 5, 237);
+}
+
+/* Button that shows the booking confirmation  */
+.result-box{
+margin-top: 20px;
+padding:12px;
+background-color: antiquewhite;
+border-radius:12px;
+display: none;
+
+}
